@@ -2,14 +2,13 @@ package com.leandrosps.JwtAuth.infra.repositories;
 
 import com.leandrosps.JwtAuth.domain.Password;
 import com.leandrosps.JwtAuth.domain.User;
-import com.leandrosps.JwtAuth.services.UserRepository;
+import com.leandrosps.JwtAuth.infra.UserRepository;
+
 import org.springframework.context.annotation.Primary;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.stereotype.Repository;
 
-import java.util.HashSet;
 import java.util.Optional;
-import java.util.Set;
 
 @Primary
 @Repository

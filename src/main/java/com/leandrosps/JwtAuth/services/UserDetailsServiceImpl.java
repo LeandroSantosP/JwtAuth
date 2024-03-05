@@ -1,6 +1,7 @@
 package com.leandrosps.JwtAuth.services;
 
 import com.leandrosps.JwtAuth.domain.User;
+import com.leandrosps.JwtAuth.infra.UserRepository;
 import com.leandrosps.JwtAuth.infra.config.UserDetailsAuthentication;
 import java.util.Optional;
 
